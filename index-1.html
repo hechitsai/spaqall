@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpaQall-Dashboard</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="./asssts/css/style.css">
+</head>
+
+<body>
+    <!-- TODO: User navebar begin -->
+    <nav>
+        <ul>
+            <!-- TODO: Logo begin -->
+            <li id="item1">
+                <a href="index-1.html"><img src="logo.png" alt="LOGO" width="200px"></a>
+                <button class="main-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </li>
+            <!-- Logo end -->
+            <!-- TODO: Searchbar begin -->
+            <li id="item2">
+                <span class="search">
+                    <a href="#">
+                        <input type="text" placeholder="Search"><i class="fas fa-search"></i>
+                    </a>
+                </span>
+            </li>
+            <!-- Searchbar end -->
+            <!-- TODO: Note begin -->
+            <li id="item3">
+                <span class="dropdown">
+                    <a href="#">
+                        <i class="fas fa-bell"></i>
+                    </a>
+                </span>
+            </li>
+            <!-- Note end -->
+            <!-- TODO: Set begin -->
+            <li id="item4">
+                <span class="dropdown">
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                </span>
+            </li>
+            <!-- Set end -->
+            <!-- TODO: User begin -->
+            <li id="item5">
+                <span class="dropdown">
+                    <a href="#">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </span>
+            </li>
+            <!-- User end -->
+        </ul>
+    </nav>
+    <!-- User navebar end -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="left-menu">
+                <ul>
+                    <!-- 預設每個項目中的首要報表項目呈現畫面 登入後看到的第一個畫面-->
+                    <li id="dashboard">
+                        <a href="#">
+                            <h6><i class="fas fa-tachometer-alt" style="font-size: 25px; margin-right: 10px;"></i>Dashboard</h6>
+                        </a>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+
+                    <!-- TODO: Ads begin -->
+                    <li id="ads">
+                        <a href="#">
+                            <h6><i class="fas fa-chart-area" style="font-size: 25px; margin-right: 10px;"></i>Ads</h6>
+                        </a>
+                        <ul id="ads-all">
+                            <li id="social-media-ads"><a href="#"><i class="fas fa-chart-bar"></i> Social media Ads</a></li>
+
+                            <li id="google"><a href="#"><i class="fas fa-chart-line"></i> Google</a></li>
+
+                            <li id="bing"><a href="#"><i class="fas fa-chart-pie"></i> Bing</a></li>
+                        </ul>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+                    <!-- Ads end -->
+
+                    <!-- TODO: Google Analytics begin -->
+                    <li id="google-analytics">
+                        <a href="#">
+                            <h6><i class="fas fa-search-location" style="font-size: 25px; margin-right: 10px;"></i>Google
+                                Analytics</h6>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-signal"></i> 網站流量分析</li></a>
+
+                            <li><a href="#"><i class="fas fa-signature"></i> 跳出率</a></li>
+
+                            <li><a href="#"><i class="fas fa-swatchbook"></i> 點擊率</a></li>
+                        </ul>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+                    <!-- Google Analytics end -->
+
+                    <!-- TODO: Server begin -->
+                    <li id="server">
+                        <a href="#">
+                            <h6><i class="fas fa-server" style="font-size: 25px; margin-right: 10px;"></i>Server</h6>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-shield-alt"></i> shield</a></li>
+
+                            <li><a href="#"><i class="fas fa-wifi"></i> Item 2</a></li>
+
+                            <li><a href="#"><i class="fas fa-skull"></i> Item 3</a></li>
+                        </ul>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+                    <!-- Server end -->
+
+                    <!-- TODO: Service begin -->
+                    <li id="service">
+                        <a href="#">
+                            <h6><i class="fas fa-headset" style="font-size: 25px; margin-right: 10px;"></i>service</h6>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-user-md"></i> Item 1</a></li>
+
+                            <li><a href="#"><i class="fas fa-user-lock"></i> Item 2</a></li>
+
+                            <li><a href="#"><i class="fas fa-user-shield"></i> Item 3</a></li>
+                        </ul>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+                    <!-- Service end -->
+
+                    <!-- TODO: Finance begin -->
+                    <li id="finance">
+                        <a href="#">
+                            <h6><i class="fas fa-coins" style="font-size: 25px; margin-right: 10px;"></i>Finance</h6>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-comment-dollar"></i> Item 1</a></li>
+                            <li><a href="#"><i class="fas fa-donate"></i> Item 2</a></li>
+                            <li><a href="#"><i class="fas fa-file-medical-alt"></i> Item 3</a></li>
+                            <li><a href="#"><i class="fas fa-industry"></i> Item 1</a></li>
+                            <li><a href="#"><i class="fas fa-search-dollar"></i> Item 2</a></li>
+                            <li><a href="#"><i class="fas fa-tape"></i> Item 3</a></li>
+                        </ul>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+
+                    <li>
+                        <a href="#">
+                            <h6><i class="fas fa-chart-area" style="font-size: 25px; margin-right: 10px;"></i>Ads</h6>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-shield-alt"></i> Item 1</a></li>
+                            <li><a href="#"><i class="fas fa-shield-alt"></i> Item 2</a></li>
+                            <li><a href="#"><i class="fas fa-shield-alt"></i> Item 3</a></li>
+                        </ul>
+                    </li>
+                    <hr style=" height:2px; border:none; border-top:2px dotted #fff; margin: 0 0 20px 0;">
+
+
+                    <!-- Finance end -->
+                </ul>
+            </div>
+            <div class="right-menu"></div>
+        </div>
+    </div>
+
+    <script src="./asssts/js/main.js"></script>
+</body>
+
+</html>
